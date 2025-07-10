@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgb(112, 128, 144);
+    
+
+}
+.nav-links {
+  list-style: none;
+  display:flex;
+  gap: 10rem; /* espaçamento entre os links */
+  text-align: center;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* alinha verticalmente */
+  padding: 2rem;
+}
+
+.nav-links li {
+  color:rgb(255, 215, 217);
+  text-decoration: none;
+  font-weight: bold;
+  border: 2rem solid transparent;
+  border-radius: 4rem;
+  box-sizing: border-box;
+  
+}
+
+.nav-links li:hover {
+  background-color: #972d8266;
+  transition: background 1s ease, border-color 0.5s ease;
+  
+}
